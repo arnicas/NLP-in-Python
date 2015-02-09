@@ -71,7 +71,7 @@ over NLTK 2.0 book
 lots of text examples)
 * Scikit-learn Cookbook
 * Natural Languages Processing with Python (Bird, Klein etc. - first NLTK book,
-out of date a bit)
+out of date a bit) http://www.nltk.org/book/
 * Some gensim tutorial stuff on iterating over large corpora:
 https://github.com/piskvorky/topic_modeling_tutorial
 
