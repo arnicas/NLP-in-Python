@@ -9,7 +9,7 @@ Notebook viewer links:
 
 [0. Reading in Files](http://nbviewer.ipython.org/github/arnicas/NLP-in-Python/blob/master/0.%20Reading%20Files.ipynb): How I made the data files, mostly Gutenberg operations. Add your own URLs!
 
-[1. Tokenizing, Stemming, POS](http://nbviewer.ipython.org/github/arnicas/NLP-in-Python/blob/master/1.Tokenizing%2C%20Stemming%2C%20POS.ipynb) - the very basics. POS is "parts of speech" not "piece of %#@t".
+[1. Tokenizing, Stemming, POS](http://nbviewer.ipython.org/github/arnicas/NLP-in-Python/blob/master/1.%20Tokenizing%2C%20Stemming%2C%20POS.ipynb) - the very basics. POS is "parts of speech" not "piece of %#@t".
 
 [2. Wordclouds](http://nbviewer.ipython.org/github/arnicas/NLP-in-Python/blob/master/2.%20WordClouds.ipynb) - entirely optional, but shows off interactive widgets to live-filter stopwords for visual effect
 
