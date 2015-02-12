@@ -12,18 +12,24 @@ Accept the defaults.  Open a new terminal window afterwards.
 
 Then from the command line in the new window:
 
-    >conda create -n topic_workshop ipython-notebook pandas numpy nltk pip
+    >conda create -n NLP ipython-notebook cython scipy matplotlib scikit-learn numpy nltk pip
     [accept the defaults]
-    >source activate topic_workshop
+    >source activate NLP
     >pip install pattern
-    >pip install networkx
+    >pip install Image
+    >pip install git+git://github.com/amueller/word_cloud.git
 
 You should see a prompt that shows the name of your new virtual environment (venv):
 
->(topic_workshop) morestuffhere$
+>(NLP) morestuffhere$
 
-Check it all worked by starting the notebook server:
+Check it all worked by starting the notebook server from the directory with all the .ipynb files (top level of this repo):
 
->(topic_workshop)$ ipython notebook
+>(NLP)etc$ ipython notebook
 
 You should see the notebook server start up and open a web page with a list of directories.  (You can shut down the notebook server by typing Control-C in the window where you started it.)
+
+To get out of the venv again, you just type:
+
+>(NLP)etc$ source deactivate
+
