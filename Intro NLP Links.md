@@ -1,5 +1,5 @@
 
-### Some Important Overview Stuff
+### Some Overview Stuff About Libraries and Books
 
 #Python libraries for NLP:
 
@@ -17,9 +17,9 @@ operations at low level and mid-level (like doc similarity and clustering), but
 may not be fast enough (built entirely in python, AFAIK)
   * http://www.clips.ua.ac.be/pattern - for nlp, especially pattern.en and
 pattern.vector
-* maybe TextBlob
-  * Radim has used it; http://textblob.readthedocs.org/en/dev/
-  * Looks like it overlaps with NLTK and pattern a bit
+* Also TextBlob:
+  * http://textblob.readthedocs.org/en/dev/
+  * Looks like it overlaps with NLTK and pattern a bit; handles the model part of document collections
 
 ### Advanced Python Toolkits (machine learning etc):
 * Sklearn (scikit-learn)
@@ -34,16 +34,16 @@ large offline text, and some mechanisms for exchanging data with sklearn.
 
 #Javascript Options
 
-* Node package "natural" (beware some weird stuff):
+* Node package "natural" (beware some weird stuff - see my demo in utils):
 https://github.com/NaturalNode/natural
 * RiTa.js (won't do TfIdf or any machine learning, will do poetry-related
-stuff): http://rednoise.org/rita/
-* Dan Shiffman's processing / node text tutorials (beware, toy examples and some
-bugs): http://shiffman.net/teaching/a2z/
+stuff!): http://rednoise.org/rita/
+* Dan Shiffman's processing / node text tutorials (beware, these are toy examples and there are some
+bugs that means they won't work on all our data): http://shiffman.net/teaching/a2z/
 
 # R
 ### There are tons, and digital humanities folks use R more than Python,
-currently
+currently; this is not an exhaustive list!
 
 * See a list here:
 http://cran.r-project.org/web/views/NaturalLanguageProcessing.html
@@ -54,26 +54,24 @@ http://www.chlt.org/StatisticalMethods/
 Literature-Quantitative-Humanities/dp/3319031635/ref=sr_1_1?ie=UTF8&qid=14230029
 60&sr=8-1&keywords=matthew+jockers
 
-# Java - ew
+# Java
+### Lots of libraries; I admit I only play with Stanford's right now
 
-* Stanford NLP (written in java) - python interfaces exist.
+* Stanford NLP (written in java) - python API's exist:
 http://nlp.stanford.edu/software/index.shtml
 * OpenNLP from Apache: https://opennlp.apache.org/
 
---
 
-# Some Python Books
+# Some Python NLP-related Books:
 
 * Python Text Processing with NLTK 2.0 Cookbook (Perkins)
 * Python 3 Text Processing With NLTK Cookbook (Perkins) - maybe slightly updated
-over NLTK 2.0 book
+over NLTK 2.0 book?  I have both but don't know detailed diffs.
 * Building Machine Learning Systems with Python (Willi Richert & Luis Coelho,
 lots of text examples)
-* Scikit-learn Cookbook
 * Natural Languages Processing with Python (Bird, Klein etc. - first NLTK book,
 out of date a bit) http://www.nltk.org/book/
 * Some gensim tutorial stuff on iterating over large corpora:
 https://github.com/piskvorky/topic_modeling_tutorial
 
 
-    

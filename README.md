@@ -17,7 +17,7 @@ Notebook viewer links:
 
 Doing some TF-IDF NLP in node's package "natural" (but caveats apply): [see here](utils/booksNodeTfIdf.js)
 
-[4. Naive Bayes Classification](http://nbviewer.ipython.org/github/arnicas/NLP-in-Python/blob/master/4.%20Naive%20Bayes%20Classification.ipynb) - the infamous 50 Shades Sex Scene Detection because spam is boring
+[4. Naive Bayes Classification](http://nbviewer.ipython.org/github/arnicas/NLP-in-Python/blob/master/4.%20Naive%20Bayes%20Classification.ipynb) - the infamous **50 Shades Sex Scene Detection** because spam is boring
 
 [5. Naive Bayes in Scikit-Learn](http://nbviewer.ipython.org/github/arnicas/NLP-in-Python/blob/master/5.%20Naive%20Bayes%20in%20Scikit-Learn.ipynb) - very quick intro to the main ml package in Python, for comparison purposes
 
