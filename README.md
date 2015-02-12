@@ -21,3 +21,4 @@ Doing some TF-IDF NLP in node's package "natural" (but caveats apply): [see here
 
 [5. Naive Bayes in Scikit-Learn](http://nbviewer.ipython.org/github/arnicas/NLP-in-Python/blob/master/5.%20Naive%20Bayes%20in%20Scikit-Learn.ipynb) - very quick intro to the main ml package in Python, for comparison purposes
 
+**There are some links to libraries and books in the [Intro NLP Links.md](Intro NLP Links.md)**
