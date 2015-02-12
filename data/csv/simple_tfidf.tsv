@@ -1,0 +1,5 @@
+animal	cat	elephant	grey	lion	manes	slurf	stripes	tiger	yellow	m#name	c#type
+0	0.1733	0	0	0	0	0	0.3466	0.3466	0.1733		tiger
+0	0.1733	0	0	0.3466	0.3466	0	0	0	0.1733		lion
+0.1733	0	0.1733	0.3466	0	0	0.3466	0	0	0		elephant
+0.3466	0	0.3466	0	0	0	0	0	0	0		elephant
