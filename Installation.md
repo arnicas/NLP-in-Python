@@ -19,17 +19,25 @@ Then from the command line in the new window:
     >pip install Image
     >pip install git+git://github.com/amueller/word_cloud.git
 
-You should see a prompt that shows the name of your new virtual environment (venv):
+You should see a prompt that shows the name of your new virtual environment (venv) maybe followed by a path or name (where I show "prompt"):
 
->(NLP) morestuffhere$
+>(NLP) prompt$
+
+Now you want to get some files from nltk for the demos - start python and do this in the shell:
+
+>(NLP)prompt$ python
+>> import nltk
+>> nltk.download()
+
+An interactive GUI should pop up.  Get the book files from the first tab. After that, you can close the GUI and exit python.
 
 Check it all worked by starting the notebook server from the directory with all the .ipynb files (top level of this repo):
 
->(NLP)etc$ ipython notebook
+>(NLP)prompt$ ipython notebook
 
 You should see the notebook server start up and open a web page with a list of directories.  (You can shut down the notebook server by typing Control-C in the window where you started it.)
 
 To get out of the venv again, you just type:
 
->(NLP)etc$ source deactivate
+>(NLP)prompt$ source deactivate
 
