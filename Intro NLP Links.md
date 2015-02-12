@@ -1,7 +1,9 @@
 
-### Some Overview Stuff About Libraries and Books
+### Some Overview Notes About Libraries and Books
 
 #Python libraries for NLP:
+
+### The basics (tokenization, tf-idf):
 
 * NLTK
  * NLTK is used in conjunction with sklearn for low-level token/parsing
@@ -21,18 +23,18 @@ pattern.vector
   * http://textblob.readthedocs.org/en/dev/
   * Looks like it overlaps with NLTK and pattern a bit; handles the model part of document collections
 
-### Advanced Python Toolkits (machine learning etc):
+### Advanced Python Toolkits (for machine learning, etc):
 * Sklearn (scikit-learn)
  * Standard in use for classification, but can be hard to examine features/etc.
 Good for volume/speed.
   * http://scikit-learn.org/stable/ (excellent docs and tutorials/examples)
 * Gensim - 'topic modeling for humans'
- * Some cutting edge stuff in here like word2vec. Good examples on dealing with
+ * Some cutting edge stuff in here like word2vec (you can see a toy vis of mine using it [here](http://www.ghostweather.com/files/word2vecpride/)). Good examples on dealing with
 large offline text, and some mechanisms for exchanging data with sklearn.
   * https://radimrehurek.com/gensim/
   * Radim's blog has a bunch of tutorial/examples: http://radimrehurek.com/blog/
 
-#Javascript Options
+# Javascript Options
 
 * Node package "natural" (beware some weird stuff - see my demo in utils):
 https://github.com/NaturalNode/natural
@@ -42,8 +44,7 @@ stuff!): http://rednoise.org/rita/
 bugs that means they won't work on all our data): http://shiffman.net/teaching/a2z/
 
 # R
-### There are tons, and digital humanities folks use R more than Python,
-currently; this is not an exhaustive list!
+### There are tons, and digital humanities folks use R more than Python, currently; this is not an exhaustive list!
 
 * See a list here:
 http://cran.r-project.org/web/views/NaturalLanguageProcessing.html
@@ -61,7 +62,6 @@ Literature-Quantitative-Humanities/dp/3319031635/ref=sr_1_1?ie=UTF8&qid=14230029
 http://nlp.stanford.edu/software/index.shtml
 * OpenNLP from Apache: https://opennlp.apache.org/
 
-
 # Some Python NLP-related Books:
 
 * Python Text Processing with NLTK 2.0 Cookbook (Perkins)
@@ -71,7 +71,5 @@ over NLTK 2.0 book?  I have both but don't know detailed diffs.
 lots of text examples)
 * Natural Languages Processing with Python (Bird, Klein etc. - first NLTK book,
 out of date a bit) http://www.nltk.org/book/
-* Some gensim tutorial stuff on iterating over large corpora:
-https://github.com/piskvorky/topic_modeling_tutorial
 
 
