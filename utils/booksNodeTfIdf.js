@@ -9,8 +9,8 @@ which implements tf-idf in its own way and removes stopwords, apparently.
 
 https://github.com/NaturalNode/natural/blob/master/lib/natural/util/stopwords.js
 
-To run this, you need to 
->npm install natural
+To run this, you need to install node and:
+> npm install natural
 > node booksNodeTfIdf.js <files dir without trailing / ! > <word>
 
 *************/
